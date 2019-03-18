@@ -77,7 +77,7 @@
         new Vue({
             el: '.title',
             data: {
-                message: 'Hello Hackroid!'
+                message: 'Hello Hackroid!!'
             }
         })
     </script>
