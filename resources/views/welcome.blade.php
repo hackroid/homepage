@@ -72,7 +72,7 @@
                     <p>@{{ message }}</p>
                 </div>
                 <div class="links">
-                    <p>@{{ blog }}</p>
+                    <a v-bind:href="https://blog.hackroid.com"><p>@{{ blog }}</p></a>
                 </div>
             </div>
         </div>
