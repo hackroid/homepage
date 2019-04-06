@@ -71,8 +71,8 @@
                 <div class="title">
                     <p>@{{ message }}</p>
                 </div>
-                <div class="links" v-bind:href="https://blog.hackroid.com">
-                    <p>@{{ blog }}</p>
+                <div class="links">
+                    <a v-bind:href="getLinks()">@{{ blog }}</a>
                 </div>
             </div>
         </div>
@@ -89,6 +89,11 @@
             el: '.links',
             data: {
                 blog: 'https://blog.hackroid.com'
+            },
+            methods: {
+                getLinks:function(){
+                    return blog
+                }
             }
         })
     </script>
