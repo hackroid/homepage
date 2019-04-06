@@ -71,6 +71,9 @@
                 <div class="title">
                     <p>@{{ message }}</p>
                 </div>
+                <div class="links">
+                    <p>@{{ blog }}</p>
+                </div>
             </div>
         </div>
     </body>
@@ -80,6 +83,12 @@
             el: '.title',
             data: {
                 message: 'Hello Hackroid!'
+            }
+        })
+        new Vue({
+            el: '.links',
+            data: {
+                blog: 'https://blog.hackroid.com'
             }
         })
     </script>
