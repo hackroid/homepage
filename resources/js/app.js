@@ -6,8 +6,10 @@
  */
 
 require('./bootstrap');
-
+import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.min.css'
 window.Vue = require('vue');
+Vue.use(VueMaterial)
 
 /**
  * The following block of code may be used to automatically register your
