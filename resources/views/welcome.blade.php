@@ -71,7 +71,9 @@
                 <div class="title">
                     <p>@{{ message }}</p>
                 </div>
-                <a href="https://blog.hackroid.com"><p>Blog</p></a>
+                <div class="links" href="https://blog.hackroid.com">
+                    <p>@{{ blog }}</p>
+                </div>
             </div>
         </div>
     </body>
