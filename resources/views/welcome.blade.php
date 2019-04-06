@@ -92,7 +92,7 @@
             },
             methods: {
                 getLinks:function(){
-                    return blog
+                    return 'https://blog.hackroid.com'
                 }
             }
         })
